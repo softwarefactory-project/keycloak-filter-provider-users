@@ -1,0 +1,8 @@
+---
+- project:
+    check:
+      jobs:
+        - keycloak-extensions-maven-build
+    gate:
+      jobs:
+        - keycloak-extensions-maven-build
